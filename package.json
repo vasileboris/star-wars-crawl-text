@@ -1,0 +1,12 @@
+{
+  "name": "star-wars-crawl-text",
+  "version": "1.0.0",
+  "description": "It is library that renders text line in Start Wars intro",
+  "main": "index.js",
+  "repository": "https://github.com/vasileboris/star-wars-crawl-text",
+  "author": "Vasile Boris",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.7.6"
+  }
+}

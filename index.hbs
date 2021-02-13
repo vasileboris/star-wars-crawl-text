@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Star Wars Crawl Text</title>
+
+    <style>
+    {{{normalizeCss}}}
+
+	{{{css}}}
+	</style>
+</head>
+<body>
+    <section class="star-wars">
+        <div class="crawl">
+            <div class="title">
+                <p>{{content.episode}}</p>
+                <h1>{{content.title}}</h1>
+            </div>
+
+            {{#each content.paragraphs}}
+                <p>{{this}}</p>
+            {{/each}}
+        </div>
+    </section>
+</body>
+</html>
