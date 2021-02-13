@@ -13,17 +13,22 @@
 	</style>
 </head>
 <body>
+    <div class="fade"></div>
+
     <section class="star-wars">
+
         <div class="crawl">
+
             <div class="title">
                 <p>{{content.episode}}</p>
                 <h1>{{content.title}}</h1>
             </div>
 
             {{#each content.paragraphs}}
-                <p>{{this}}</p>
+            <p>{{this}}</p>
             {{/each}}
         </div>
+
     </section>
 </body>
 </html>
